@@ -1,0 +1,94 @@
+@media screen and (max-width: 1024px) {
+    .banner__right-side img {
+        margin-top: -56px;
+        padding: 12px;
+    }
+    .banner__right-side {
+        background-size: 577px;
+    }
+    .Protect__yourself {
+        font-size: 33px;
+    }
+    .font-size{
+        font-size: 15px;
+        margin-right: 71px;
+    }
+    .btn__info {
+        display: inline-block;
+        font-size: 20px;
+        padding: 4px 12px;
+        margin: 39px 0;
+        color: #dec9c4;
+    }
+    .virus {
+        width: 225px;
+        position: absolute;
+        right: -120px;
+        top: 0;
+    }
+    .virus-center {
+        position: absolute;
+        width: 200px;
+        left: 400px;
+        z-index: 6;
+        bottom: 110px;
+    }
+    .virus-right {
+        width: 200px;
+        left: -96px;
+    }
+    .Collection-inner-left {
+        width: 200px;
+        margin-top: -36px;
+        margin-left: 3px;
+        transform: scale(1.1);
+    }
+    .Collection-inner-righ {
+        width: 185px;
+        margin-left: 18px;
+        margin-top: -36px;
+        transform: scale(1.3);
+    }
+    .Collection-inner-center {
+        width: 165px;
+        margin-left: 38px;
+        margin-top: -60px;
+        transform: scale(1.1);
+    }
+    .Collection h2 ,.Collection__last_child h2  {
+        font-size: 22px;
+    }
+    .Collection p ,.Collection__last_child p  {
+        font-size: 18px;
+    }
+    /* end */
+    .featured__Products_head P {
+        font-size: 40px;
+    }
+    .featured__Products_head h5 {
+        font-size: 24px;
+    }
+    .inner__product {
+        transform: scale(0.7);
+        margin-left: 16px;
+    }
+    .product-mask {
+        width: 300px;
+        height: 321px;
+        object-fit: contain;
+        object-position: right;
+        transform: scale(0.8);
+        margin-left: 23px;
+    }
+    .featured__Products-inner {
+        background-color: #F5F5F5;
+        text-align: center;
+        height: 278px;
+    }
+    .tranfrom{
+        transform: scale(1.0);
+    }
+    .product__heading h3 {
+        font-size: 18px;
+    }
+}
