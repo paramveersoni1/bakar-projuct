@@ -26,6 +26,12 @@
         right: -120px;
         top: 0;
     }
+    .Collection-inner-left {
+        width: 200px;
+        margin-top: -43px;
+        margin-left: 3px;
+        transform: scale(1.1);
+    }
     .virus-center {
         position: absolute;
         width: 200px;
@@ -90,5 +96,57 @@
     }
     .product__heading h3 {
         font-size: 18px;
+    }
+    .product__value p {
+        font-size: 16px;
+    }
+    .product__value h3 {
+        font-size: 18px;
+    }
+    .star__list {
+        margin-left: 64px;
+    }
+    .view_btn {
+        padding: 12px 85px;
+    }
+    /* end */
+    .inner_img_2 {
+        position: absolute;
+        right: -102px;
+        bottom: 22px;
+        transform: rotate(10deg);
+        width: 237px;
+    }
+    .protection__heading {
+        font-size: 18px;
+    }
+    .proctection_para {
+        font-size: 12px;
+        margin-right: 50px;
+    }
+    .amount {
+        margin-left: 7px;
+        margin-bottom: -2px;
+    }
+    .price {
+        margin-top: 35px;
+    }
+    .inner__img {
+        margin-top: -200px;
+    }
+    .protection__sider {
+        position: absolute;
+        width: 189px;
+        left: 18px;
+        bottom: -128px;
+    }
+    .Protection_body:after {
+        right: 154px;
+    }
+    .protecton_virus {
+        width: 120px;
+        position: absolute;
+        right: -62px;
+        top: 0;
     }
 }
