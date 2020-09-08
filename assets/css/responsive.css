@@ -1,4 +1,23 @@
 @media screen and (max-width:  1199px) {
+    .logo {
+        width: 90%;
+    }
+    .navbar a {
+        font-size: 20px;
+        padding: 0px 20px;
+    }
+    .banner__right-side img{
+        margin-top:-50px;
+    }
+    .banner__right-side{
+        background-size:685px;
+    }
+    .btn-info {
+        font-size: 18px;
+    }
+    .Protect__yourself{
+        font-size:34px;
+    }
     .virus-center {
         width: 270px;
         left: 461px;
@@ -20,7 +39,7 @@
         width: 251px;
     }
     .Protection_body:after{
-        right: 180px;
+        right: 0px;
     }
     .protecton_virus{
         width: 80px;
@@ -36,22 +55,66 @@
         top: 190px;
     }
 }
+@media screen and ( max-width:1080px){
+    .navbar a {
+        font-size: 18px;
+        padding: 0px 20px;
+    }
+    .Protect__yourself {
+        font-size: 38px;
+    }
+    .btn__info {
+        display: inline-block;
+        font-size: 20px;
+        padding: 7px 18px;
+        margin: 30px 0;
+        color: white;
+    }
+    .banner__right-side {
+        background-size: 625px;
+    }
+    .Collection h2 ,.Collection__last_child h2 {
+        font-size: 24px;
+    }
+}
+@media screen and (max-width:  992px){
+    .navbar a {
+        font-size: 15px;
+        padding: 0px 18px;
+    }
+    .btn-info {
+        font-size: 14px;
+    }
+    .banner-btn {
+        margin-left: 42px;
+    }
+}
 @media screen and (max-width:  991px) {
     .qwe{
         display:block;
     }
-    /* .navbar{
-        display:none;
-    } */
-    
+    .banner_bar{
+        background-color: #fff7f5;
+         border: 1px saddlebrown;
+    }
     .navbar a{
         font-size: 14px;
+    }
+    /* .navbar {
+        display: flex;
+        background-color: lightpink;
+        max-width: 80%;
+        height: 36px;
+        align-items: center;
+    } */
+    .navbar {
+        display: none;
     }
     .banner-btn {
         margin-left: 30px;
     }
     .banner__right-side img {
-        margin-top: -54px;
+        margin-top: -40px;
     }
     .Protect__yourself {
         font-size: 32px;
@@ -65,13 +128,12 @@
     .font-size {
         font-size: 15px;
     }
-    .btn__info {
-        font-size: 18px;
-        padding: 7px 12px;
-        margin: 30px 0;
+    .btn-info {
+        font-size: 14px;
+        display: none;
     }
     .banner__right-side {
-        background-size: 566px;
+        background-size: 460px;
     }
     .virus {
         width: 200px;
@@ -238,9 +300,8 @@
     }
 }
 @media screen and (max-width:  767px){
-    
     .navbar a {
-        font-size: 8px;
+        font-size: 12px;
     }
     .logo {
         width: 130px;
@@ -425,6 +486,23 @@
     }
     .Company__Support h2, .Instagram__Follow_head h2 {
         font-size: 18px;
+    }
+}
+@media screen and (max-width:  575px){
+    .navbar a {
+        font-size: 13px;
+        color: #ff6d33;
+    }
+    .navbar {
+        /* display: none; */
+        position: absolute;
+        flex-direction: column;
+        height: 170px;
+        z-index: 9;
+        top: 43px;
+        max-width: 100%;
+        background-color: #ebddc2;
+        right: 0;
     }
 }
 
