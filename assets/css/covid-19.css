@@ -43,10 +43,12 @@ ul {
 }
 
 .navbar a {
-    font-size: 20px;
 	padding: 0px 20px;
     text-decoration: none;
     color: black;
+}
+.header_bar{
+	display: none;
 }
 .navbar {
 	display:flex;
@@ -291,9 +293,10 @@ ul {
     text-decoration: none;
     padding: 7px 10px;
     box-shadow: 1px solid;
-    border: 1px dotted #ff6d33;
+	border: 1px dotted #ff6d33;
+	transition: 4s;
 }
-.featured__Products__detel:hover .featured_btn{
+.featured_product:hover .featured_btn{
 	opacity: 1;
 }
 .featured__Products-sale-tag{
@@ -599,6 +602,10 @@ ul {
     width: 274px;
     left: 31px;
 }
+.proctection_content{
+	font-size:20px;
+	display: flex;
+}
 /* section-end */
 
 .review_img{
@@ -729,7 +736,6 @@ ul {
 	widows: 100%;
 }
 .links_head h2{
-	margin-bottom: 28px;
     color: #3A393E;
 	margin-top: 10px;
 	font-size: 24px;
@@ -744,9 +750,6 @@ ul {
     width: 25%;
 	margin-left: 22px;
 	margin-top: 10px;
-}
-.Company__Support h2{
-	margin-bottom: 28px;
 }
 .Instagram__Follow {
 	width: 40%;

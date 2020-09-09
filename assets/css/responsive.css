@@ -3,305 +3,332 @@
         width: 90%;
     }
     .navbar a {
-        font-size: 20px;
-        padding: 0px 20px;
-    }
-    .banner__right-side img{
-        margin-top:-50px;
-    }
-    .banner__right-side{
-        background-size:685px;
-    }
-    .btn-info {
+        padding: 0px 18px;
         font-size: 18px;
     }
-    .Protect__yourself{
-        font-size:34px;
+    .header_bar {
+        display: none;
     }
-    .virus-center {
-        width: 270px;
-        left: 461px;
-        top: 455px;
+    .banner__right-side {
+        background-size: 575px;
     }
-    .Collection-inner-righ {
-        right: -5px;
-    }
-    .view_btn {
-        padding: 18px 100px;
-    }
-    .inner__img {
-        margin-top: -204px;
-    }
-    .protection__sider {
-        height: 480px;
-        left: 6px;
-        bottom: -23px;
-        width: 251px;
-    }
-    .Protection_body:after{
-        right: 0px;
-    }
-    .protecton_virus{
-        width: 80px;
+    .virus {
+        width: 250px;
+        right: -95px;
     }
     .virus-right {
-        width: 189px;
-        bottom: 6px;
-        left: -74px;
+        width: 200px;
+        bottom: -46px;
+        left: -50px;
     }
-    .center {
-        width: 130px;
-        left: 580px;
-        top: 190px;
+    .font-size {
+        margin-top: 20px;
     }
-}
-@media screen and ( max-width:1080px){
-    .navbar a {
-        font-size: 18px;
-        padding: 0px 20px;
+    .virus-center {
+        width: 200px;
+        left: 409px;
+        top: 400px;
+    }
+    .banner__right-side img {
+        margin-top: -70px;
+        padding: 50px;
+        overflow: hidden;
+        transform: scale(1.1);
     }
     .Protect__yourself {
         font-size: 38px;
     }
-    .btn__info {
-        display: inline-block;
-        font-size: 20px;
-        padding: 7px 18px;
-        margin: 30px 0;
+    .font-size {
+        font-size: 17px;
+        margin-right: -5px;
+        margin-top: 25px;
+    }
+    .banner-btn {
+        margin-left: 40px;
+    }
+    .btn-info {
         color: white;
+        padding: 7px;
     }
-    .banner__right-side {
-        background-size: 625px;
-    }
+    /* header-and-banner-section-end */
     .Collection h2 ,.Collection__last_child h2 {
         font-size: 24px;
     }
-}
-@media screen and (max-width:  992px){
-    .navbar a {
-        font-size: 15px;
-        padding: 0px 18px;
-    }
-    .btn-info {
-        font-size: 14px;
-    }
-    .banner-btn {
-        margin-left: 42px;
-    }
-}
-@media screen and (max-width:  991px) {
-    .qwe{
-        display:block;
-    }
-    .banner_bar{
-        background-color: #fff7f5;
-         border: 1px saddlebrown;
-    }
-    .navbar a{
-        font-size: 14px;
-    }
-    /* .navbar {
-        display: flex;
-        background-color: lightpink;
-        max-width: 80%;
-        height: 36px;
-        align-items: center;
-    } */
-    .navbar {
-        display: none;
-    }
-    .banner-btn {
-        margin-left: 30px;
-    }
-    .banner__right-side img {
-        margin-top: -40px;
-    }
-    .Protect__yourself {
-        font-size: 32px;
-    }
-    .banner__info p {
-        font-size: 18px;
-    }
-    .banner__info span {
-        font-size: 18px;
-    }
-    .font-size {
-        font-size: 15px;
-    }
-    .btn-info {
-        font-size: 14px;
-        display: none;
-    }
-    .banner__right-side {
-        background-size: 460px;
-    }
-    .virus {
-        width: 200px;
-        right: -50px;
-    }
-    .virus-center {
-        width: 200px;
-        left: 390px;
-        top: 378px;
-    }
-    .virus-right {
-        width: 177px;
-        bottom: 10px;
-        left: -50px;
-    }
-    /* banner-end */
-    .Collection h2 {
-        font-size: 22px;
-    }
-    .Collection__last_child h2 {
-        font-size: 22px;
-    }
-    .Collection p {
-        font-size: 18px;
-    }
-    .Collection__last_child p {
-        font-size: 18px;
-    }
     .Collection-inner-left {
+        position: absolute;
         right: -34px;
-        bottom: -18px;
-        width: 230px;
-    }
-    .Collection-inner-center {
-        width: 200px;
-        top: 40px;
-        right: -30px;
-    }
-    .Collection-inner-righ {
-        right: -10px;
+        /* bottom: 0px; */
+        width: 250px;
         top: 70px;
-        width: 240px;
     }
-    /* collection-section-end */
-    .featured__Products_head, .Featured__Products_head h5 {
-        font-size: 24px;
+    .Collection-inner-center{
+        top: 40px;
     }
-    .featured__Products_head P, .Featured__Products_head p {
-        font-size: 38px;
+    .Collection-inner-righ{
+        right: 0;
+        top: 65px;
+        width: 250px;
     }
     .inner__product {
         transform: scale(0.7);
     }
-    .product-mask {
-        right: 6px;
-        padding-top: 40px;
-        padding-left: 12px;
-    }
-    .product__heading h3 {
-        font-size: 16px;
+    /* end */
+    .product__heading h3{
+        font-size:18px;
     }
     .product__value h3 {
         font-size: 18px;
     }
-    .product__value p {
-        font-size: 16px;
+    .product-mask{
+        padding: 55px 0 0 24px;
     }
     .star__list {
-        margin-left: 35px;
+        margin-left: 48px;
+    }
+    .featured__Products_head P, .Featured__Products_head p{
+        font-size: 38px;
+    }
+    .featured__Products_head, .Featured__Products_head h5 {
+        font-size: 24px;
     }
     .view_btn {
-        padding: 15px 80px;
-    }
-    /* end */
-    .featured__btn {
-        margin-top: 40px;
-        text-align: center;
-        text-decoration: none;
-    }
-    .protection__heading {
-        font-size: 18px;
-    }
-    .proctection_para {
-        font-size: 12px;
-    }
-    .price {
-        padding: 7px 8px;
-    }
-    .inner_img_2 {
-        right: -71px;
-        bottom: 25px;
-        width: 200px;
-    }
-    .inner__img {
-        margin-top: -158px;
-    }
-    .protection__sider {
-        width: 184px;
-        transform: scale(1.0);
-        left: 0;
-    }
-    .Protection_body:after {
-        right: 165px;
-    }
-    .Protection_body {
-        margin-top: 40px;
-    }
+        padding: 14px 90px;
+    }    
     .Featured{
-        width: 144px;
-        right: -20px;
+        width: 150px;
+        right: -24px;
+    }
+    .virus-right {
+        width: 150px;
+        bottom: -2px;
+        left: -50px;
+    }
+    .Protection_body:after{
+        right:0;
     }
     .protecton_virus{
-        width: 130px;
-        right: -58px;
+        display: none;
     }
-    /* protection */
-    .customer_content{
-        font-size:16px;
+    .protection__sider {
+       display: none;
     }
-    .side {
-        height: 150px;
-        width: 170px;
+    .inner__img {
+        margin-top: -206px;
+        margin-left: 55px;
+        transform: scale(1.2);
+    }
+    .protection__img{
+        width:500px;
+    }
+    .inner_img_2 {
         position: absolute;
+        right: -213px;
+        bottom: -1px;
+        width: 305px;
+        transform: rotate(10deg);
     }
-    /* customer-end */
-    .text {
+    .protection__heading {
+        font-size: 24px;
+    }
+    .customer_content {
+        font-size: 16px;
+    }
+    
+}
+@media screen and (max-width:  991px) {
+    .header_bar {
+        margin-left: 10px;
+        border: 1px;
+        background-color: #fff7f5;
+        display: inline-block;
+    }
+    .btn__info {
+        font-size: 18px;
+        padding: 7px 18px;
+    }
+    .navbar a {
+        font-size: 18px;
+        color: #201d1f;
+        border-radius: 40px;
+        margin-bottom: -29px;
+        padding: 14px;
+        display: inline-block;
+    }
+    .navbar{
+        display: inline-block;
+    }
+    .header{
+        position: relative;
+    }
+    .Protect__yourself {
+        font-size: 40px;
+    }
+    .banner__info{
+        justify-content: center;
+    }
+    .banner-btn{
+        margin: 0;
+    }
+    .btn-info {
+        color: white;
+        padding: 8px;
         margin-bottom: 16px;
-        font-size: 11px;
+    }
+    .font-size{
+        font-size:24px;
+        margin:0;
+    }
+    .banner__right-side img{
+        display: none;
+    }
+    .banner__left-side {
+        width: 100%;
+        text-align: center;
+    }
+    .banner__info span,.banner__info p{
+        font-size:24px;
+    }
+     .nav {
+        position: absolute;
+        z-index: 3;
+        text-align: center;
+        left: 0;
+        height: 340px;
+        flex-direction: column;
+        top:95px;
+        width: 100%;
+        background-color: #eeb5a7;
+    } 
+    .banner__left-side {
+        width: 1000%;
+        text-align: center;
+    }
+    .banner__info{
+        text-align: center;
+    } 
+    /* banner-and-header-end */
+    .Collection h2, .Collection__last_child h2 {
+        font-size: 20px;
+        display: inline-block;
+    }
+    .Collection p,.Collection__last_child p {
+        font-size: 18px;
+    }
+    .Collection-inner-left, .Collection-inner-center, .Collection-inner-righ{
+        display:none;
+    }
+    .Collection{
+        text-align: center;
+    }
+    .Collection__body{
+        text-align: start;
+        display: inline-block;
+    }
+    .Collection__last_child{
+        text-align: center;
+    }
+    /* collection-section-end */
+    .featured__Products__detel{
+        width:50%
+    }
+    .inner__product {
+        transform: scale(0.9);
+    }
+    .product__heading h3{
+        font-size:26px;
+    }
+    .product__value h3 {
+        font-size: 20px;
+    }
+    /* end */
+    .inner_img_2 {
+        position: absolute;
+        right: -136px;
+        bottom: 7px;
+        width: 230px;
+        transform: rotate(10deg);
+    }
+    .inner__img {
+        margin-top: -196px;
+        margin-left: 35px;
+        transform: scale(1.1);
+    }
+    .protection__img {
+        width: 400px;
+    }
+    .proctection_content {
+        font-size: 18px;
+    }
+    .proctection_para{
+        font-size:18px;
+    }
+    .product__value{
+        justify-content: space-between;
+        margin:0;
+    }
+    .protection__heading {
+        font-size: 20px;
+    }
+    /* protection-section-end */
+    .Instagram__Follow_head {
+        margin-top: 10px;
+        font-size: 15px;
+    }
+    .links_head h2, .Company__Support h2 {
+        font-size: 16px;
+    }
+    .Instagram__Follow_head {
+        margin-top: 10px;
+        font-size: 12px;
     }
     .footer_logo{
-        width:180px;
+        width: 150px;
     }
-    .links_head h2, .Company__Support h2 ,.Instagram__Follow_head h2{
-        font-size: 22px;
+    .Company__Support {
+        width: 25%;
+        margin-left: 6px;
+        margin-top: 10px;
     }
-    .icon_1{
-        padding: 7px 12px;
+    .follwers-list {
+        height: 75px;
+        width: 26%;
+        object-fit: cover;
+        object-position: top;
+        padding: 6px;
     }
-    .icon_2{
-        padding: 8px 7px;
+    .text {
+        margin-bottom: 18px;
+        font-size: 12px;
     }
-    .icon_3{
-        padding: 9px 8px;
+    .icon_1 {
+        padding: 5px 11px;
     }
-    .follwers-list{
-        height: 120px;
-        padding: 0px 0px 8px 8px;
+    .icon_2 {
+        padding: 6px;
     }
-    .center {
-        position: absolute;
-        height: 95px;
-        width: 137px;
-        left: 456px;
-        top: 117px;
+    .icon_3 {
+        padding: 7px;
+    }
+    .icon_4 {
+        background-color: #2196F3;
+        padding: 4px;
+    }
+    .footer__Links {
+        margin-left: 22px;
+    }
+    .links_head h2, .Company__Support h2{
+        font-size:20px
     }
 
 }
-@media screen and (max-width:  975px){
-    .protection__sider {
-        width: 249px;
-        transform: scale(0.8);
-        left: -37px;
-        bottom: -70px;
-    }
-}
 @media screen and (max-width:  767px){
     .navbar a {
-        font-size: 12px;
+        font-size: 14px;
+        padding: 10px;
+    }
+    .nav{
+        top: 72px;
+        height: 255px;
     }
     .logo {
         width: 130px;
@@ -309,7 +336,10 @@
     .banner-btn {
         margin-left: 20px;
     }
-    .btn-info{
+    .btn-info {
+        color: white;
+        padding: 6px;
+        margin-bottom: 5px;
         font-size: 12px;
     }
     .banner__info span {
@@ -336,8 +366,8 @@
         background-size: 440px;
     }
     .virus {
-        width: 166px;
-        right: -50px;
+        width: 100px;
+        right: -15px;
     }
     .virus-center {
         width: 160px;
@@ -345,19 +375,19 @@
         top: 308px;
     }
     .virus-right {
-        width: 130px;
-        bottom: -1px;
-        left: -62px;
+        width: 100px;
+        bottom: 0;
+        left: 0;
     }
     /* end-banner */
     .Collection h2 {
-        font-size: 16px;
+        font-size: 15px;
     }
     .Collection p {
-        font-size: 16px;
+        font-size: 14px;
     }
     .Collection__last_child h2 {
-        font-size: 16px;
+        font-size: 15px;
     }
     .Collection__last_child p{
         font-size: 16px;
@@ -377,6 +407,10 @@
         width: 150px;
         top: 40px;
         right: -27px;
+    }
+    .inner__product{
+        transform: scale(0.8);
+        height: 250px;
     }
     .Collection ,.Collection__last_child{
         padding: 15px;
@@ -409,21 +443,13 @@
         height: 250px;
     }
     .product__heading h3 {
-        font-size: 13px;
+        font-size: 18px;
     }
     .product__value h3 {
-        font-size: 12px;
-    }
-    .product__value p {
-        font-size: 12px;
-        margin-left: 5px;
-        margin-top: 0px;
+        font-size: 16px;
     }
     .star__list {
-        margin-left: 45px;
-        width: 18px;
-        height: 18px;
-        display: flex;
+        margin-left: 0;
     }
     .view_btn {
         padding: 12px 40px;
@@ -433,34 +459,36 @@
         font-size: 20px;
     }
     .protection__heading{
-        font-size: 21px;
+        font-size: 18px;
+    }
+    .slick-dots {
+        bottom: 0;
     }
     .proctection_para {
         font-size: 13px;
     }
     .protection__content {
         margin: 0;
-        font-size:16px;
+        font-size:15px;
     }
     .protection__img{
-        width:300px;
+        width:340px;
     }
     .inner__img {
-        margin-top: -150px;
-        position: absolute;
-        right: -23px;
-        transform: scale(1.1);
+       display: none;
     }
     .inner_img_2 {
-        right: -129px;
-        bottom: -41px;
-        width: 220px;
+        display:none;
     }
     .protection__sider{
         display: none;
     }
     .Protection_body {
         width: 92%;
+        margin-top: 5%;
+    }
+    .product__value p {
+        font-size: 14px;
     }
     .btn-info {
         font-size: 14px;
@@ -469,45 +497,109 @@
         font-size:10px;
     }
     .price {
-        padding: 7px 21px;
+        padding: 5px 16px;
         margin-right: 3px;
     }
     .Protection_body:after {
         right:0;
     }
+    .custmor__icon{
+        width:35px;
+    }
+    .woman-img{
+        height: 90px;
+    }
+    .slick-slide img{
+        width:90px;
+    }
     .customer_content{
         font-size:11px;
     }
-    .content{
-        font-size:18px;
+    .content {
+        font-size: 12px;
+    }
+    /* end */
+    .follwers-list{
+        height: 72px;
+        padding: 5px;
+    }
+    .links_head h2, .Company__Support h2,.Company__Support h2, .Instagram__Follow_head h2{
+        font-size: 15px;
+    }
+    .text {
+        margin-bottom: 16px;
+        font-size: 10px;
     }
     .footer_logo{
-        width:140px
+        width: 120px;
+    }
+    .icon_1 {
+        margin:0;
+        padding: 2px 4px;
+    }
+    .icon_2{
+        padding: 3px;
+        margin:0;
+    }
+    .icon_3 {
+        padding: 5px;
+        margin:0;
+    }
+    .icon_4{
+        padding: 2px;
+        margin:0
+    }
+    .center {
+        left: 382px;
+        top: 105px;
+    }
+    .side {
+        width: 92px;
+        left: 118px;
     }
     .Company__Support h2, .Instagram__Follow_head h2 {
-        font-size: 18px;
+        font-size: 14px;
     }
 }
 @media screen and (max-width:  575px){
-    .navbar a {
-        font-size: 13px;
-        color: #ff6d33;
+    .font-size {
+        font-size: 11px;
     }
-    .navbar {
-        /* display: none; */
-        position: absolute;
-        flex-direction: column;
-        height: 170px;
-        z-index: 9;
-        top: 43px;
-        max-width: 100%;
-        background-color: #ebddc2;
-        right: 0;
+    .banner__left-side{
+        padding: 20px;
     }
+    .banner__info span, .banner__info p {
+        font-size: 18px;
+    }
+    .Protect__yourself {
+        font-size: 20px;
+    }
+    .btn-info {
+        font-size: 10px;
+        padding: 3px;
+    }
+    .banner-btn{
+        margin:0;
+    }
+    .Collection-btn {
+        padding-top: 6px;
+    }
+    .Collection, .Collection__last_child{
+        padding:0;
+    }
+    .Collection h2,.Collection__last_child h2 {
+        font-size: 12px;
+    }
+    .Collection p,.Collection__last_child p{
+        font-size: 12px;
+    }
+    
 }
+
 
 
 
 /* 991px
 767px
-575px */
+575px 
+480px*/
