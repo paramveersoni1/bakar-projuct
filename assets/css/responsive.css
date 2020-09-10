@@ -256,6 +256,9 @@
     .protection__img {
         width: 400px;
     }
+    .customer_inner:hover{
+        background-size:320px;
+    }
     .proctection_content {
         font-size: 18px;
     }
@@ -425,6 +428,9 @@
         top: 45px;
         width: 180px;
     }
+    .customer_inner:hover{
+        background-size:700px;
+    }
     .featured__Products_head P, .Featured__Products_head p {
         font-size: 24px;
     }
@@ -507,13 +513,13 @@
         width:35px;
     }
     .woman-img{
-        height: 90px;
+        height: 130px;
     }
     .slick-slide img{
-        width:90px;
+        width:130px;
     }
     .customer_content{
-        font-size:11px;
+        font-size:22px;
     }
     .content {
         font-size: 12px;
@@ -560,6 +566,10 @@
     .Company__Support h2, .Instagram__Follow_head h2 {
         font-size: 14px;
     }
+    .footer__para p {
+        color: #3A393E;
+        font-size: 12px;
+    }
 }
 @media screen and (max-width:  575px){
     .font-size {
@@ -568,6 +578,9 @@
     .banner__left-side{
         padding: 20px;
     }
+    .logo{
+        width:130px;
+    }
     .banner__info span, .banner__info p {
         font-size: 18px;
     }
@@ -575,25 +588,253 @@
         font-size: 20px;
     }
     .btn-info {
-        font-size: 10px;
-        padding: 3px;
+        font-size: 12px;
+        padding: 8px 18px;
     }
     .banner-btn{
         margin:0;
     }
+    .Collection{
+        width: 50%;
+        padding:10px;
+    }
     .Collection-btn {
         padding-top: 6px;
     }
-    .Collection, .Collection__last_child{
+    .Collection__last_child{
         padding:0;
+        display: none;
     }
-    .Collection h2,.Collection__last_child h2 {
-        font-size: 12px;
+    .Collection h2{
+        font-size: 20px;
     }
-    .Collection p,.Collection__last_child p{
-        font-size: 12px;
+   .Collection__last_child p{
+        font-size: 14px;
     }
+    .product__heading h3 {
+        font-size: 14px;
+    }
+    .product__value h3 {
+        font-size: 14px;
+    }
+    .product__value p {
+        font-size: 10px;
+    }
+    .inner__product {
+        transform: scale(0.59);
+    }
+    .featured__Products_head, .Featured__Products_head{
+        margin-bottom: 35px;
+    }
+    .star_img {
+        width: 18px;
+        margin-bottom: 5px;
+    }
+    .featured__hover_btn {
+        left: 100px;
+          top: 105px;
+    }
+    .featured_btn{
+        padding: 5px;
+    }
+    .featured__Products-inner{
+        height: 200px;
+    }
+    .featured__btn{
+        margin: 20px 0 0 0;
+    }
+    .Protection_body{
+        width:1000%;
+        text-align: center;
+    }
+    .proctection_content{
+        justify-content: center;
+    }
+    .protection__img{
+        display:none;
+    }
+    .protection__content{
+        display: none;
+    }
+    .loar-title {
+        margin-top:20px;
+        justify-content: center;
+    }
+    .customer_eduard {
+        margin-top: 8px;
+    }
+    .customer_content{
+        font-size:18px;
+    }
+    .customer_inner:hover{
+        background-size: 500px;
+    }
+    /* end */
+    .covid_19{
+        width:100%;
+    }
+    .footer_head{
+        flex-direction: column;
+    }
+    .footer_logo {
+        width: 250px;
+    }
+    .text{
+        font-size:20px;
+    }
+    .virus-right {
+        width: 120px;
+    }
+    .side {
+       display: none;
+    }
+    .center {
+        left: 180px;
+        top: 320px;
+        width: 150px;
+    }
+    .icon_1 {
+        margin: 0;
+        padding: 5px 12px;
+    }
+    .icon_2 {
+        padding: 6px;
+        margin: 0;
+    }
+    .icon_3 {
+        padding: 7px 6px;
+        margin: 0;
+    }
+    .icon_4 {
+        padding: 4px;
+        margin: 0;
+    }
+    .footer__Links{
+        margin:0;
+    }    
+    .content {
+        font-size: 16px;
+    }
+    .Company__Support{
+        width:100%;
+        margin:0;
+    }
+    .links_head h2, .Company__Support h2, .Company__Support h2, .Instagram__Follow_head h2{
+        font-size:24px;
+    }
+    .Instagram__Follow {
+        width: 100%;
+    }
+    .follwers-list {
+        height: 110px;
+        width: 137px;
+        transform: scale(1.0);
+    }
+
     
+}
+@media screen and (max-width: 480px){
+    .nav{
+        height: 270px;
+    }
+    .Protect__yourself{
+        font-size:18px;
+    }
+    .banner__info span, .banner__info p{
+        font-size:15px;
+    }
+    .virus-right {
+        width: 100px;
+    }
+    .Collection h2 {
+        font-size: 13px;
+    }
+    .btn-info {
+        font-size: 10px;
+        padding: 6px 15px;
+    }
+    .featured__Products_head, .Featured__Products_head{
+        margin-bottom: 20px;
+    }
+    .product__value p{
+        margin-left: 5px;
+        margin-top: 1px;
+    }
+    .product__heading h3{
+        font-size:10px;
+    }
+    .product__value h3{
+        font-size:10px;
+    }
+    .star_img{
+        width: 10px;
+        padding-bottom: 10px;
+    }
+    .featured__Products-sale-tag img {
+        height: 40px;
+    }
+    .featured__Products-sale-tag p{
+        font-size:10px;
+    }
+    .featured_btn{
+        padding:4px;
+    }
+    .featured__btn{
+        margin:0;
+    }
+    .featured__hover_btn {
+        left: 44px;
+        top: 100px;
+    }
+    .inner__product {
+        transform: scale(0.60);
+        height: 186px;
+    }
+    .featured__Products-inner {
+        height: 170px;
+    }
+    .view_btn {
+        padding: 7px 10px;
+        font-size:12px;
+    }
+    .proctection_content {
+        font-size: 14px;
+    }
+    .protection__heading {
+        font-size: 14px;
+    }
+    .proctection_para {
+        font-size: 10px;
+    }
+    .featured__Products_head, .Featured__Products_head h5{
+        font-size: 16px;
+    }
+    .featured__Products_head P, .Featured__Products_head p{
+        font-size:22px;
+    }
+    .featured__Products_head P, .Featured__Products_head p{
+        font-size:14px;
+    }
+    .slick-slide img {
+        width: 100px;
+    }
+    .customer_content {
+        font-size: 14px;
+    }
+    .woman-img{
+        height: 100px;
+    }
+    .footer_logo {
+        width: 230px;
+    }
+    .text {
+        font-size: 18px;
+    }
+    .follwers-list {
+        height: 100px;
+        width: 112px;
+        transform: scale(0.99);
+    }
 }
 
 
