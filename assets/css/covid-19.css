@@ -280,7 +280,7 @@ ul {
     justify-content: space-between;
     flex-wrap: wrap;
 }
-.featured__Products__detel {
+.featured__Products__details {
     width: 33%;
     padding: 6px;
     position: relative;
@@ -766,40 +766,42 @@ ul {
 	text-align: center;
 	color:x#3a393e;
     border: 1px solid #dad2d2;
-	padding: 25px;
+	padding: 12px;
 	background-color: #fff7f5;
 }
 /* page-3-preview--*/
 .Customized_Reusable_parant{
 	display: flex;
 	width:100%;
+	margin-bottom: 40px;
 }
-.Customized_Reusable_left{
-	width:10%;
-	background-color: #F5F5F5;
-	text-align: center;
+.Customized_Reusable_left {
+    width: 10%;
+    background-color: #F5F5F5;
+    text-align: center;
 }
 .Customized_Reusable_center {
     width: 40%;
     display: inline-block;
     text-align: center;
     background-color: whitesmoke;
-    margin-left: 11px;
+	margin-left: 11px;
 }
 .Customized_Reusable_inner{
-	transform: scale(0.8);
+	margin-top: 102px;
+    width: 100%;
 }
 .second_imgs {
     padding: 2px;
     object-fit: cover;
-    width: 78px;
+    width: 110px;
 }
 .second_imgs:hover{
 	background-color: #E5F1F5;
 }
 .Customized_Reusable_right{
 	width:50%;
-	padding: 20px;;
+	padding: 0 20px;;
 }
 .customized_content{
 	display:flex;
@@ -822,7 +824,8 @@ ul {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 47%;
+	width: 47%;
+	color:black;
 }
 .color_one_customize {
     width: 30px;
@@ -851,4 +854,53 @@ ul {
     background-color: #4677FF;
     border-radius: 40px;
     padding: 8px;
+}
+.Customize_addto_card {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    align-items: center;
+	margin-top: 15px;
+}
+.Share_icon{
+	color:black;
+}
+.plas_img{
+	width:30px;
+}
+.add_card{
+	padding: 0;
+}
+.add_card_btn{
+	padding: 5px 15px;
+}
+.icon_pinterest {
+    background-color: #D32F2F;
+    padding: 7px 10px;
+    border-radius: 2px;
+}
+/* customize-section_end */
+.description_details{
+	color: #989898;
+}
+.Description_header {
+    background-color: #FFF7F5;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    padding: 12px 100px 12px 100px;
+    color: #a59898;
+    margin-bottom: 30px;
+}
+.Description_header p:hover{
+	color: black;
+}
+.share_fb_icon{
+	padding: 2px 8px;
+	background-color: blue;
+	border-radius: 2px;
+}
+.share_twitter_icon{
+	border-radius: 2px;
 }
