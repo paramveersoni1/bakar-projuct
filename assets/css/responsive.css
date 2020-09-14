@@ -1,4 +1,4 @@
-@media screen and (max-width:  1199px) {
+ @media screen and (max-width:  1199px) {
     .logo {
         width: 90%;
     }
@@ -150,12 +150,17 @@
     .protection__heading {
         font-size: 24px;
     }
+    .customized_para {
+        color: #989898;
+        font-size: 14px;
+    }
     .customer_content {
         font-size: 16px;
     }
     img.share_twitter_icon{
         background-color: #4677ff;
         padding: 8px;
+        margin-right: 8px;
     }
     .icon_pinterest {
         background-color: #D32F2F;
@@ -164,6 +169,20 @@
     }
     .share_fb_icon {
         padding: 8px 12px;
+        margin-right: 8px;
+}
+/* page-5 */
+.description_details {
+    font-size: 14px;
+}
+.description_inner_left{
+    width: 85%;
+}
+.customize_stars{
+    margin:0;
+}
+.Add__Comment_main{
+    width:98%;
 }
 @media screen and (max-width:  991px) {
     .header_bar {
@@ -230,12 +249,17 @@
         z-index: 3;
         text-align: center;
         left: 0;
-        height: 340px;
+        max-height: 0;
         flex-direction: column;
         top:95px;
+        transition: 4s;
         width: 100%;
+        overflow: hidden;
         background-color: #eeb5a7;
     } 
+    .nav.active{
+        max-height: 1000px;
+    }
     .banner__left-side {
         width: 1000%;
         text-align: center;
@@ -374,22 +398,36 @@
         font-size:20px
     }
     /* page--3 */
-    .Customized_Reusable_left {
-        width: 12%;
+    .second_imgs {
+        padding: 2px;
+        object-fit: cover;
+        width: 78px;
     }
-    .Customized_Reusable_inner {
-        margin-top: 104px;
+    .Customized_Reusable_inner{
         width: 95%;
         transform: scale(0.8);
+        margin: 0;
     }
+    .Customized_Reusable_left {
+        width: 11%;
+    }
+    .Customized_Reusable_center {
+        margin-left: 6px;
+    }   
     .customized_head{
         font-size:12px;
     }
+    .prouduct_content{
+        align-items: baseline;
+    }
     .customized_head p, .prouduct_content p, .customized_para {
-        font-size: 14px;
+        font-size: 9px;
+    }
+    .Customize_addto_card{
+        align-items: baseline;
     }
     .customize_colors {
-        width: 70%;
+        width: 54%;
     }
     .Customize_addto_card {
         display: flex;
@@ -400,7 +438,13 @@
     .description_details {
         font-size: 12px;
     }
-    
+    /* page-5 */
+    .star_reviews_info{
+        font-size:14px;
+    }
+    .personal_reviews h3{
+        font-size:18px;
+    }
 }
 @media screen and (max-width:  767px){
     .navbar a {
@@ -412,7 +456,6 @@
     }
     .nav{
         top: 72px;
-        height: 260px;
     }
     .Our_product {
         font-size: 11px;
@@ -663,15 +706,24 @@
         font-size: 12px;
     }
     /* page-3 */
+    .second_imgs{
+        width: 103px;   
+    }
+    .Customized_Reusable_inner {
+        width: 95%;
+        transform: scale(0.9);
+        margin: 0;
+        padding-top: 30px;
+    }
     .Customized_Reusable_parant{
         flex-wrap: wrap;
         justify-content: center;
     }
     .Customized_Reusable_left {
-        width: 28%;
+        width: 15%;
     }
     .Customized_Reusable_center {
-        width: 68%;
+        width: 80%;
     }
     .Customized_Reusable_right {
         width: 100%;
@@ -692,6 +744,28 @@
     }
     .Customize_addto_card {
         width: 42%;
+    }
+    /* page-5 */
+    .description_details {
+        font-size: 10px;
+    }
+    .description_inner_left{
+        width:80%;
+    }
+    .descritption_img {
+        width: 65px;
+        margin-right: 22px;
+    }
+    .box_comment{
+        padding: 6px;
+    }
+    .clock_img {
+        width: 17px;
+        height: 19px;
+        object-fit: contain;
+    }
+    .star_reviews_info {
+        font-size: 12px;
     }
 }
 @media screen and (max-width:  575px){
@@ -771,7 +845,7 @@
       margin-top:35px;
       margin-bottom:10px;
     }
-    .star_img {
+    .star_reding_img {
         width: 18px;
         margin-bottom: 5px;
     }
@@ -879,9 +953,9 @@
     .customized_head {
         font-size: 15px;
     }
-    .prouduct_content.d--flex {
+    .prouduct_content{
         justify-content: space-between;
-        width: 26%;
+        width:20%;
         align-items: baseline;
     }
     .customized_para {
@@ -891,15 +965,20 @@
         width: 50%;
     }
     .Customize_addto_card {
+        width: 45%;
+    }
+    .Description_header{
+        padding: 0;
+    }
+    .Customize_addto_card {
         width: 56%;
     }
-    
-    
+    .clock_img {
+        width: 15px;
+        height: 15px;
+    }
 }
 @media screen and (max-width: 480px){
-    .nav{
-        height: 270px;
-    }
     .Protect__yourself{
         font-size:18px;
     }
@@ -959,7 +1038,7 @@
     .product__value h3{
         font-size:16px;
     }
-    .star_img{
+    .star_reding_img{
         width: 20px;
         padding-bottom: 10px;
     }
@@ -1026,7 +1105,7 @@
     .second_imgs {
         padding: 2px;
         object-fit: cover;
-        width: 72px;
+        width: 25%;
         border: 1px solid #ceb7b1;
     }
     .Customized_Reusable_left {
@@ -1034,7 +1113,9 @@
         display: flex;
         justify-content: center;
         order: 2;
-
+    }
+    .Description_header{
+        padding: 0;
     }
     .Customized_Reusable_center {
         width: 100%;
@@ -1064,6 +1145,29 @@
     }
     .Customized_Reusable_right{
         order:3;
+    }
+    /* page-5 */
+    .description_details{
+        font-size:8px;
+    }
+    .star_reding_img{
+        width: 7px;
+        padding-bottom: 10px;
+    }
+    .personal_reviews h3 {
+        font-size: 12px;
+    }
+    .star_reviews_info{
+        font-size:10px;
+        margin-left: 6px;
+    }
+    .description_inner_left{
+        width:72%;
+    }
+    .clock_img {
+        width: 12px;
+        height: 12px;
+        object-fit: contain;
     }
 }
 

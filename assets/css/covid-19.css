@@ -277,12 +277,13 @@ ul {
 }
 .featured__Products_body{
 	display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
 }
 .featured__Products__details {
-    width: 33%;
-    padding: 6px;
+    width: 33.33%;
+	padding: 6px;
+	margin-right: 2px;
+    margin-left: -4px;
     position: relative;
 }
 .featured__hover_btn{
@@ -787,6 +788,18 @@ ul {
     background-color: whitesmoke;
 	margin-left: 11px;
 }
+#N95{
+	display: none;
+} 
+#Mask{
+ display: none;
+}
+#Sanitizer{
+	display: none;
+} 
+#Sunglasses{
+	display: none;
+}
 .Customized_Reusable_inner{
 	margin-top: 102px;
     width: 100%;
@@ -897,10 +910,81 @@ ul {
 	color: black;
 }
 .share_fb_icon{
-	padding: 2px 8px;
+	padding: 8px 12px;
 	background-color: blue;
 	border-radius: 2px;
 }
-.share_twitter_icon{
+img.share_twitter_icon{
+	background-color: #4677ff;
+	padding: 8px;
 	border-radius: 2px;
+}
+/* page-5 */
+.description_info {
+    width: 100%;
+    margin: 50px 0;
+    box-shadow: 0px 1px#E9E9E9;
+    padding-bottom: 25px;
+}
+.description_inner_left{
+	width:90%;
+	margin-bottom: 7px;
+}
+.descritption_img{
+	width: 90px;
+	margin-right: 25px;
+}
+.description_clock{
+	display: flex;
+	
+}
+.clock_img {
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+}
+.description_contents{
+	display: flex;
+	align-items: center;
+}
+.star_reviews_info{
+	margin-left: 10px;
+    color: #989898;
+}
+.Add__Comment_main{
+	width: 100%;
+}
+.Rating_list{
+    margin-top: 18px;
+    align-items: center;
+	width: 100%;
+	margin-bottom: 30px;
+}
+.comment_form{
+	display: flex;
+	width:100%;
+	flex-wrap: wrap;
+}
+.box_comment{
+	display: block;
+	width: 98%;
+	padding: 15px;
+	color:#989898;
+}
+.box__area{
+	width:99%;
+}
+.view_comment{
+	margin-bottom: 30px;
+}
+.Comment__first,.Comment__two{
+	width: 50%;
+}
+.form_title{
+	display: block;
+	color:#989898;
+}
+.form_title_loar{
+	margin-top: 15px;
+	color:#989898;
 }
