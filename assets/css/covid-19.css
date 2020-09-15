@@ -990,6 +990,33 @@ img.share_twitter_icon{
 	color:#989898;
 }
 /* page-8 */
+.address_inner {
+    display: flex;
+    max-width: 700px;
+    width: 100%;
+    position: relative;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.address_inner::after {
+    content: "";
+    border-top: 2px solid #F3EEEE;
+    width: 100%;
+    position: absolute;
+    top: 16px;
+    left: 0;
+}
+.address_inner input{
+	width: 20px;
+    height: 20px;
+}
+.address_location{
+	display: flex;
+    width: 100%;
+    max-width: 700px;
+    justify-content: space-between;
+    margin: 0 auto;
+}
 .adress_inner_parant {
     width: 100%;
     display: flex;
@@ -1043,10 +1070,6 @@ img.share_twitter_icon{
     width: 25px;
     height: 24px;
 }
-.shipping_adress_inner span{
-	margin-top: 34px;
-    margin-bottom: 10px;
-}
 .shipping_adress_inner{
 	border-bottom: 1px solid #DEDCDC;
 	padding: 18px;
@@ -1066,6 +1089,9 @@ img.share_twitter_icon{
     width: 21px;
 	margin-right: 5px;
 	object-fit: contain;
+}
+.new_card{
+	margin: 15px;
 }
 .preview_btns{
 	justify-content: space-between;

@@ -1257,6 +1257,9 @@
         width: 100px;
         height: 101px;
     }
+    .address_location {
+        font-size: 12px;
+    }
 }
 
 
